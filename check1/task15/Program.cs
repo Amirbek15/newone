@@ -8,6 +8,10 @@ Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 int count = 0; // Начальное значение счетчика
+if(number == 0)
+{
+    count = 1;
+}
 
 while (number != 0) { // Пока число не равно 0
     count++; // Увеличиваем счетчик
